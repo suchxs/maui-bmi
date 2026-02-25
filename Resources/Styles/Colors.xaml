@@ -18,6 +18,11 @@
     <Color x:Key="MidnightBlue">#190649</Color>
     <Color x:Key="OffBlack">#1f1f1f</Color>
 
+    <Color x:Key="BmiUnderweight">#F7C9A9</Color>
+    <Color x:Key="BmiNormal">#B7E4C7</Color>
+    <Color x:Key="BmiOverweight">#FFE9A8</Color>
+    <Color x:Key="BmiObese">#F4A3A3</Color>
+
     <Color x:Key="Gray100">#E1E1E1</Color>
     <Color x:Key="Gray200">#C8C8C8</Color>
     <Color x:Key="Gray300">#ACACAC</Color>
@@ -41,4 +46,9 @@
     <SolidColorBrush x:Key="Gray600Brush" Color="{StaticResource Gray600}"/>
     <SolidColorBrush x:Key="Gray900Brush" Color="{StaticResource Gray900}"/>
     <SolidColorBrush x:Key="Gray950Brush" Color="{StaticResource Gray950}"/>
+
+    <SolidColorBrush x:Key="BmiUnderweightBrush" Color="{StaticResource BmiUnderweight}"/>
+    <SolidColorBrush x:Key="BmiNormalBrush" Color="{StaticResource BmiNormal}"/>
+    <SolidColorBrush x:Key="BmiOverweightBrush" Color="{StaticResource BmiOverweight}"/>
+    <SolidColorBrush x:Key="BmiObeseBrush" Color="{StaticResource BmiObese}"/>
 </ResourceDictionary>
